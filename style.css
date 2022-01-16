@@ -103,18 +103,35 @@ footer{
 }
 /* Mobile device */
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width:480px)   {
     .journey-first{
         width: 100%;
-        grid-template-columns: repeat(1, 1fr);
+        
         flex-direction: column;
+        
     }
-.featured-products{
-    width: 100%;
+.popular-container{
    
+    
+    grid-template-columns: repeat(1, 1fr);
+    flex-direction: column;
+    
+   
+   
+}
+.items{
+    font-size: 25px;
+    grid-template-columns: repeat(1, 1fr);
+    
+    flex-direction: column;
+}
+.products{
+    width: 100%;
+    flex-direction: column;
 }
 footer{
     width: 100%;
+    
 
 }
     
