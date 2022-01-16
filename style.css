@@ -126,11 +126,12 @@ footer{
     flex-direction: column;
 }
 .products{
-    width: 100%;
+    
     flex-direction: column;
 }
 footer{
     width: 100%;
+    
     
 
 }
